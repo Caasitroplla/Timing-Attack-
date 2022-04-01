@@ -76,9 +76,10 @@ def crack_password(user, length, verbose=False):
 
 def main():
     user = 'allpisaa'
-    length = crack_length(user, verbose=True)
-    print(f'using the most likely length {length}')
-    input('hit enter to coninue ...')
+    #length = crack_length(user, verbose=True)
+    #print(f'using the most likely length {length}')
+    #input('hit enter to coninue ...')
+    length = 11
     password = crack_password(user, length, verbose=True)
     print(f"password cracked: '{password}'")
 
