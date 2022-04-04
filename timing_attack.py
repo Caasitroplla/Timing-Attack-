@@ -5,8 +5,8 @@ import timeit
 import numpy as np 
 from time import time
 
-allowed_chars = string.ascii_lowercase + " 1234567890"
-password_database = { "allpisaa" : "campden4544"}
+allowed_chars = string.ascii_lowercase + " 0123456789"
+password_database = { "allpisaa" : "admin"}
 
 def check_password(user, guess):
     actual = password_database[user]
